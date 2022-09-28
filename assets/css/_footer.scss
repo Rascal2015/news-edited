@@ -1,0 +1,154 @@
+#footer {
+    margin-top: 3rem;
+
+    #footer-web {
+        #footer-top {
+            background-color: #2fa1b3;
+
+            .container {
+                padding: 1rem 0;
+                display: flex;
+                justify-content: space-between;
+
+                #footer-img {
+                    width: 160px;
+                    height: 36px;
+                    display: inline-block;
+                    background: url(https://baomoi-static.bmcdn.me/web/styles/img/desktop-logo.png) 0 0/160px 72px;
+
+                }
+
+                form {
+                    background-color: #ffff;
+                }
+            }
+        }
+
+        .container:nth-child(2) {
+            text-align: center;
+
+            a {
+                color: #212529;
+            }
+        }
+
+        .container:nth-child(3) {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        #footer-content {
+            padding: 2rem 0;
+            border-bottom: solid #ddd 1px;
+
+            span {
+                color: #6c757d;
+                position: relative;
+                display: inline-block;
+                padding: 0 1rem;
+
+                &:hover {
+                    a {
+                        color: #2fa1b3;
+                    }
+                }
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 4px;
+                    height: 4px;
+                    border: 50%;
+                    border-radius: 50%;
+                    background-color: #6c757d;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+
+        #contact {
+            padding: 2rem 0;
+        }
+
+        #left-footer {
+            display: flex;
+        }
+
+        #contact {
+
+            ul {
+                margin-right: 3rem;
+
+                a {
+                    color: #212529;
+
+                    &:hover {
+                        color: #2fa1b3;
+                    }
+                }
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    #footer-mb {
+        display: none;
+
+        #footer-mb-top {
+            background-color: #dddddd7a;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+            .container {
+                display: flex;
+                align-items: center;
+
+                div:nth-child(1) {
+                    margin-right: 2rem;
+
+                    img {
+                        width: 5rem;
+                        height: 5rem;
+                        object-fit: cover;
+                    }
+                }
+
+                div:nth-child(3) {
+                    margin-left: auto;
+
+                    button {
+                        width: 5rem;
+                        height: 5rem;
+                        background-color: #ddd;
+                        border-radius: 0 !important;
+                    }
+                }
+            }
+        }
+
+        #footer-mb-bottom {
+            text-align: center;
+            position: relative;
+            padding: 2rem 0 4rem 0;
+            margin-top: 2rem;
+
+            &::before {
+                content: "";
+                width: 100px;
+                height: 1px;
+                left: 50%;
+                transform: translateX(-50%);
+                display: block;
+                top: 0;
+                background-color: rgb(73, 80, 87);
+                position: absolute;
+            }
+        }
+    }
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+    <link rel="shortcut icon" href="#">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="header-left">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <form class="form">
+                    <div class="search-group">
+                        <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                        <button class="btn-search"><i class='bx bx-search'></i></button>
+                    </div>
+                </form>
+
+            </div>
+            <div id="header-right">
+                <div>
+                    <button id="btn-search-mb"><i class='bx bx-search'></i></button>
+                </div>
+                <div>
+                    <button id="btn-logins"><i class='bx bx-user'></i></button>
+                </div>
+                <div>
+                    <button id="btn-mobile"><i class='bx bx-mobile-alt'></i></button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li class="big active"> <a href="#">NÓNG</a></li>
+                    <li class="big"> <a href="#">MỚI</a></li>
+                    <li class="big"> <a data-number="17" href="#">VIDEO</a></li>
+                    <li class="big"> <a href="#">CHỦ ĐỀ</a></li>
+                    <li class="sm"><a href="#">Năng lương tích cực</a></li>
+                    <li class="sm"> <a href="#">Khám phá Việt Nam</a></li>
+                    <li class="sm"> <a href="#">Khám phá thế giới</a></li>
+                    <li id="toggle-menu">
+                        <button type="button" class="burger" id="burger">
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <div id="category-menu">
+                <div class="container">
+                    <ul>
+                        <li class="category">
+                            <a href="#">THẾ GIỚI</a>
+                        </li>
+                        <li class="category">
+                            <a href="#">XÃ HỘI</a>
+                            <ul>
+                                <li><a href="#">Thời sự</a></li>
+                                <li><a href="#">Giao thông</a></li>
+                                <li><a href="#">Môi trường-Khí hậu</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">VĂN HÓA</a>
+                            <ul>
+                                <li><a href="#">Nghệ thuật</a></li>
+                                <li><a href="#">Ẩm thực</a></li>
+                                <li><a href="#">Du lịch</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">KINH TẾ</a>
+                            <ul>
+                                <li><a href="#">Lao động-Việc làm</a></li>
+                                <li><a href="#">Tài chính</a></li>
+                                <li><a href="#">Chứng khoáng</a></li>
+                                <li><a href="#">Kinh doanh</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">GIÁO DỤC</a>
+                            <ul>
+                                <li><a href="#">Học bổng-Du học</a></li>
+                                <li><a href="#">Đào tạo-Thi cử</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">THỂ THAO</a>
+                            <ul>
+                                <li><a href="#">Bóng đá quốc tế</a></li>
+                                <li><a href="#">Bóng đá Việt Nam</a></li>
+                                <li><a href="#">Quần vợt</a></li>
+                                <li><a href="#">Lịch thi đấu</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">GIẢI TRÍ</a>
+                            <ul>
+                                <li><a href="#">Âm nhạc</a></li>
+                                <li><a href="#">Thời trang</a></li>
+                                <li><a href="#">Quần vợt</a></li>
+                                <li><a href="#">Điện ảnh-Truyền hình</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">PHÁP LUẬT</a>
+                            <ul>
+                                <li><a href="#">An ninh-Trật tự</a></li>
+                                <li><a href="#">Hình sự-Dân sư</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="category">
+                            <a href="#">CÔNG NGHỆ</a>
+                            <ul>
+                                <li><a href="#">CNTT-VIễn thông</a></li>
+                                <li><a href="#">Thiết bị-Phần cứng</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">KHOA HỌC</a>
+                        </li>
+                        <li class="category">
+                            <a href="#">ĐỜI SỐNG</a>
+                            <ul>
+                                <li><a href="#">Dinh dưỡng-Làm đẹp</a></li>
+                                <li><a href="#">Tình yêu-Hôn nhân</a></li>
+                                <li><a href="#">Sức khỏe-Y tế</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">XE CỘ</a>
+                        </li>
+                        <li class="category">
+                            <a href="#">NHÀ ĐẤT</a>
+                            <ul>
+                                <li><a href="#">Quản lý-Quy hoach</a></li>
+                                <li><a href="#">Không gian-Kiến trúc</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="search-box-mb">
+        <div class="container">
+            <form class="form">
+
+                <div class="search-group">
+                    <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                    <button class="btn-search"><i class='bx bx-search'></i></button>
+                </div>
+                <div id="search-keys">
+
+                    <h5>TÌM NHANH</h5>
+
+                    <a href="">SEA GAME</a>
+                    <a href="">vaccine phòng COVID-19</a>
+                    <a href="">liên minh châu âu</a>
+                    <a href="">nắng nóng</a>
+                    <a href="">SEA GAME</a>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div id="banner">
+        <img src="assets/images/history.jpg" alt="">
+    </div>
+    <div id="top-history">
+        <h3>HISTORY OF BITCOIN</h3>
+        <p>A timeline that shows bitcoin History from the idea all the way to present day.</p>
+    </div>
+    <div id="history">
+        <div class="container">
+            <div id="before">
+
+            </div>
+            <div class="year-group">
+                <h4 class="year">2007</h4>
+                <ul>
+                    <li>Satoshi Nakamoto began working on the Bitcoin concept.</li>
+                </ul>
+            </div>
+            <div class="year-group">
+                <h4 class="year">2008</h4>
+                <ul>
+                    <li>Neal Kin, Vladimir Oksman, and Charles Bry file an application<br> for an encryption patent
+                        application.</li>
+                    <li>Bitcoin.org was registered at anonymousspeech.com<h4 class="month">August</h4>
+                    </li>
+                    <li>Nakamoto describes the Bitcoin currency and solves the<br> problem of double spending.<h4>
+                            October</h4>
+                    </li>
+                    <li>The Bitcoin project is registered on SourceForge.net.<h4 class="month">November</h4>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="year-group">
+                <h4 class="year"> 2009</h4>
+                <ul>
+                    <li>Block 0 is established.</li>
+                    <li>Version 0.1 of Bitcoin is released.</li>
+                    <li>The first Bitcoin transaction.
+                        <h4 class="month">January</h4>
+                    </li>
+                    <li>An exchange rate is established.<br>October</li>
+                    <li>Version 0.2 is released.</li>
+                    <li>The difficulty increases.<h4 class="month">December</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="year-group">
+                <h4 class="year">2010</h4>
+                <ul>
+                    <li>The Bitcoin Market is established as a Bitcoin currency<br> exchange.</li>
+                    <li>Encryption patent is published. <br>February </li>
+                    <li>The first real-world transaction using 10,000 BTC spent on pizza.<br>May</li>
+                    <li>Version 0.3 released.</li>
+                    <li>In five days, the price grew 1000%, rising from <span class="price">$0.008</span> to <span
+                            class="price">$0.08</sp> <br>for 1 bitcoin.</li>
+                    <li>The MtGox Bitcoin currency exchange market is established.<h4 class="month">July</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="year-group">
+                <h4 class="year">2008</h4>
+                <ul>
+                    <li>Neal Kin, Vladimir Oksman, and Charles Bry file an application<br> for an encryption patent
+                        application.</li>
+                    <li>Bitcoin.org was registered at anonymousspeech.com.<h4 class="month">August</h4>
+                    </li>
+                    <li>Nakamoto describes the Bitcoin currency and solves the<br> problem of double spending.<br>
+                        <h4>October</h4>
+                    </li>
+                    <li>The Bitcoin project is registered on SourceForge.net.</li>
+                    <h4 class="month">November</h4>
+
+                </ul>
+            </div>
+            <div class="year-group">
+                <h4 class="year">2010</h4>
+                <ul>
+                    <li>The Bitcoin Market is established as a Bitcoin currency<br> exchange.</li>
+                    <li>Encryption patent is published. <h4 class="month">February</h4>
+                    </li>
+                    <li>The first real-world transaction using 10,000 BTC spent on pizza.<br>May</li>
+                    <li>Version 0.3 released.</li>
+                    <li>In five days, the price grew 1000%, rising from <span class="price">$0.008</span> to <span
+                            class="price">$0.08</span> <br>for 1 bitcoin.</li>
+                    <li>The MtGox Bitcoin currency exchange market is established.</li>
+                    <h4 class="month">July</h4>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-web">
+            <div id="footer-top">
+                <div class="container">
+                    <div id="footer-img">
+                        <a href="#"></a>
+
+                    </div>
+                    <form class="form">
+                        <div class="search-group">
+                            <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                            <button class="btn-search"><i class='bx bx-search'></i></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="container" id="footer-content">
+                <div>
+                    <span><a href="">Nhật Bản </a></span>
+                    <span><a href="">Nguyễn Thanh Long </a></span>
+                    <span><a href="">Việt Á </a></span>
+                    <span><a href="">SEA Games 31 </a></span>
+                    <span><a href="">Gong Oh Kyun</a></span>
+                    <span><a href="">bộ nông nghiệp và phát triển nông thôn </a></span>
+                    <span><a href="">liên hợp quốc</a></span>
+                    <span><a href="">Việt Á </a></span>
+                    <span><a href="">SEA Games 31 </a></span>
+                    <span><a href="">Gong Oh Kyun</a></span>
+                    <span><a href="">bộ nông nghiệp và phát triển nông thôn </a></span>
+                    <span><a href="">liên hợp quốc</a></span>
+                    <span><a href="">bất động sản</a></span>
+                    <span><a href="">hàn quốc </a></span><span><a href="">việt nam </a></span>
+                    <span><a href="">trái phiếu doanh nghiệp </a></span>
+                    <span><a href="">bộ giáo dục và đào tạo</a></span>
+                    <span><a href="">Nguyễn Thanh Long </a></span>
+                    <span><a href="">Việt Á </a></span>
+                    <span><a href="">SEA Games 31 </a></span>
+                    <span><a href="">Gong Oh Kyun</a></span>
+                    <span><a href="">bộ nông nghiệp và phát triển nông thôn </a></span>
+                    <span><a href="">liên hợp quốc</a></span>
+                    <span><a href="">bất động sản</a></span>
+                    <span><a href="">hàn quốc </a></span><span><a href="">việt nam </a></span>
+                    <span><a href="">trái phiếu doanh nghiệp </a></span>
+                    <span><a href="">bộ giáo dục và đào tạo</a></span>
+                </div>
+            </div>
+            <div class="container" id="contact">
+                <div id="left-footer">
+                    <ul>
+                        <h5>LIÊN HỆ</h5>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Điều khoản sử dụng</a></li>
+                        <li><a href="">Quảng cáo</a></li>
+                    </ul>
+                    <ul>
+                        <h5>KHÁC</h5>
+                        <li><a href="">Tổng hợp</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Giấy phép số 1818/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 05/05/2017<br>Đơn vị
+                        chủ
+                        quản: Công ty Cổ phần Công nghệ EPI * Chịu trách nhiệm: Võ Quang<br>Địa chỉ: Tầng 5, Tòa nhà Báo
+                        Sinh Viên VN, D29 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội<br>Tel: (024) 3-212-3232, số máy lẻ
+                        6666.
+                        contact.baomoi@epi.com.vn</p>
+                    <p>BÁO MỚI tổng hợp và sắp xếp các thông tin tự động<br>bởi chương trình máy tính</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer-mb">
+            <div id="footer-mb-top">
+                <div class="container">
+                    <div>
+                        <a href="">
+                            <img src="assets/images/logo-mobi-ft.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <h5>TẢI ỨNG DỤNG BÁO MỚI</h5>
+                        <H6>ĐỂ KHÔNG BỎ SÓT THÔNG TIN</H6>
+                    </div>
+                    <div>
+                        <a href="">
+                            <button>
+                                <i class='bx bxs-cloud-download'></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-mb-bottom">
+                Địa chỉ: Tầng 5, Tòa nhà Báo Sinh Viên VN,<br>
+                D29 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội<br>
+                Tel: (024) 3-212-3232, số máy lẻ 6666.<br>
+                Email: contact.baomoi@epi.com.vn<br>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

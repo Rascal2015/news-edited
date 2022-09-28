@@ -1,0 +1,265 @@
+#right-content {
+    flex-basis: 34%;
+
+    .article-title span {
+        font-size: 1.9rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+
+    .list-article {
+        .article-item {
+            border-bottom: solid #ddd 1px;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+
+            .article-thumbnail {
+                flex-basis: 19%;
+                min-width: 6rem;
+                max-height: 6rem;
+                margin-right: 1rem;
+            }
+
+            .article-content {
+                flex-basis: 78%;
+            }
+        }
+    }
+
+    #government {
+        padding: 2rem;
+        background-color: #f7f7f7;
+
+        a {
+            color: #212529 !important;
+        }
+
+        #government-title {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px solid #DA211C;
+            padding: 0.5rem 0;
+
+            #government-logo {
+                width: 3rem;
+                height: 3rem;
+                margin: 0 1.5rem;
+            }
+        }
+
+        #government-content {
+            padding: 1.5rem;
+            border-left: solid #ddd 1px;
+            border-bottom: solid #ddd 1px;
+            padding-bottom: 1rem;
+
+            #government-article {
+                display: flex;
+                border-bottom: dashed #ddd 1px;
+                padding-bottom: 1.5rem;
+
+                #government-article-thumb {
+                    margin-right: 1.5rem;
+                }
+
+                p {
+                    font-weight: bold;
+                }
+            }
+
+            ul {
+
+                padding: 1rem 0 1rem 1.5rem;
+
+                li {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        display: inline-block;
+                        width: 4px;
+                        height: 4px;
+                        position: absolute;
+                        top: 0.8rem;
+                        left: -1.5rem;
+                        background-color: #DA211C;
+                    }
+                }
+
+                a {
+                    font-size: 1.3rem;
+                    color: #212529;
+                    font-weight: 600;
+
+                }
+            }
+        }
+    }
+
+    #local {
+        background: #fef9e6 url(https://baomoi-static.bmcdn.me/web/styles/img/global-map.png) top/330px 164px no-repeat;
+        padding: 1.5rem;
+        min-height: 500px;
+
+        h5 span,
+        h5 i {
+            color: #db562b;
+            display: inline-block;
+            font-size: 2.4rem;
+            text-transform: uppercase;
+        }
+
+        select {
+            border: none;
+            width: 100%;
+            height: 3rem;
+            padding-left: 1rem;
+            font-size: 1.5rem;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .see-all {
+            text-align: end;
+
+            a {
+                color: #212529;
+                font-weight: 600;
+                font-size: 1.7rem;
+
+                &:hover {
+                    color: #2fa1b3;
+                }
+            }
+        }
+    }
+
+}
+
+
+#article-vd {
+    h3 span {
+        color: #2fa1b3;
+
+        &::before {
+            background-color: #2fa1b3;
+        }
+    }
+
+    .right-ar-box-content {
+        background-color: #eef8f9;
+
+    }
+}
+
+#article-photo {
+    h3 span {
+        color: #db562b;
+    }
+
+    .right-ar-box-content {
+        background-color: #fcf2ee;
+
+    }
+
+    .article-thumbnail {
+        max-height: 13.5rem;
+        display: flex;
+        justify-content: space-between;
+
+        &:hover {
+            img {
+                transform: scale(1);
+            }
+        }
+
+        a:hover {
+            img {
+                transform: scale(1.03) !important;
+            }
+        }
+
+        .thumb-left {
+            flex-basis: 70%;
+        }
+
+        .thumb-right {
+            height: 100%;
+            flex-basis: 29%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            img {
+                height: 100%;
+            }
+
+            div:nth-child(1) {
+                height: 69%;
+                margin-bottom: 3px;
+
+            }
+
+            div:nth-child(2) {
+                height: 40%;
+
+            }
+        }
+    }
+}
+
+#partner {
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    padding: 8px 15px 0;
+    background: #f7f8fa url(https://baomoi-static.bmcdn.me/web/styles/img/pls-bg-1.png) -moz-calc(50% - 60px) top/600px auto no-repeat;
+    background: #f7f8fa url(https://baomoi-static.bmcdn.me/web/styles/img/pls-bg-1.png) calc(50% - 60px) top/600px auto no-repeat;
+
+    #partner-content {
+        padding: 5px 1px;
+        overflow: hidden;
+        position: relative;
+        font-size: 10px;
+        line-height: 2.8em;
+        color: #09f;
+        text-align: center;
+        height: 65px;
+
+        #partner-animate {
+            position: absolute;
+            display: flex;
+            animation: partner 20s linear infinite;
+
+            a {
+                display: flex;
+                align-items: center;
+                flex-shrink: 0;
+                height: 46px;
+                width: 90px;
+                padding: 0.5rem;
+                background-color: #fff;
+                border: 1px solid #fff;
+                margin: 0 7.5px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+@keyframes partner {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-50%);
+    }
+}

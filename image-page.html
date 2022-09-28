@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-page</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.3/venobox.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="header-left">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <form class="form">
+                    <div class="search-group">
+                        <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                        <button class="btn-search"><i class='bx bx-search'></i></button>
+                    </div>
+                </form>
+
+            </div>
+            <div id="header-right">
+                <div>
+                    <button id="btn-search-mb"><i class='bx bx-search'></i></button>
+                </div>
+                <div>
+                    <button id="btn-logins"><i class='bx bx-user'></i></button>
+                </div>
+                <div>
+                    <button id="btn-mobile"><i class='bx bx-mobile-alt'></i></button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li class="big active"> <a href="#">NÓNG</a></li>
+                    <li class="big"> <a href="#">MỚI</a></li>
+                    <li class="big"> <a data-number="17" href="#">VIDEO</a></li>
+                    <li class="big"> <a href="#">CHỦ ĐỀ</a></li>
+                    <li class="sm"><a href="#">Năng lương tích cực</a></li>
+                    <li class="sm"> <a href="#">Khám phá Việt Nam</a></li>
+                    <li class="sm"> <a href="#">Khám phá thế giới</a></li>
+                    <li id="toggle-menu">
+                        <button type="button" class="burger" id="burger">
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <div id="category-menu">
+                <div class="container">
+                    <ul>
+                        <li class="category">
+                            <a href="#">THẾ GIỚI</a>
+                        </li>
+                        <li class="category">
+                            <a href="#">XÃ HỘI</a>
+                            <ul>
+                                <li><a href="#">Thời sự</a></li>
+                                <li><a href="#">Giao thông</a></li>
+                                <li><a href="#">Môi trường-Khí hậu</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">VĂN HÓA</a>
+                            <ul>
+                                <li><a href="#">Nghệ thuật</a></li>
+                                <li><a href="#">Ẩm thực</a></li>
+                                <li><a href="#">Du lịch</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">KINH TẾ</a>
+                            <ul>
+                                <li><a href="#">Lao động-Việc làm</a></li>
+                                <li><a href="#">Tài chính</a></li>
+                                <li><a href="#">Chứng khoáng</a></li>
+                                <li><a href="#">Kinh doanh</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">GIÁO DỤC</a>
+                            <ul>
+                                <li><a href="#">Học bổng-Du học</a></li>
+                                <li><a href="#">Đào tạo-Thi cử</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">THỂ THAO</a>
+                            <ul>
+                                <li><a href="#">Bóng đá quốc tế</a></li>
+                                <li><a href="#">Bóng đá Việt Nam</a></li>
+                                <li><a href="#">Quần vợt</a></li>
+                                <li><a href="#">Lịch thi đấu</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">GIẢI TRÍ</a>
+                            <ul>
+                                <li><a href="#">Âm nhạc</a></li>
+                                <li><a href="#">Thời trang</a></li>
+                                <li><a href="#">Quần vợt</a></li>
+                                <li><a href="#">Điện ảnh-Truyền hình</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">PHÁP LUẬT</a>
+                            <ul>
+                                <li><a href="#">An ninh-Trật tự</a></li>
+                                <li><a href="#">Hình sự-Dân sư</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="category">
+                            <a href="#">CÔNG NGHỆ</a>
+                            <ul>
+                                <li><a href="#">CNTT-VIễn thông</a></li>
+                                <li><a href="#">Thiết bị-Phần cứng</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">KHOA HỌC</a>
+                        </li>
+                        <li class="category">
+                            <a href="#">ĐỜI SỐNG</a>
+                            <ul>
+                                <li><a href="#">Dinh dưỡng-Làm đẹp</a></li>
+                                <li><a href="#">Tình yêu-Hôn nhân</a></li>
+                                <li><a href="#">Sức khỏe-Y tế</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <a href="#">XE CỘ</a>
+                        </li>
+                        <li class="category">
+                            <a href="#">NHÀ ĐẤT</a>
+                            <ul>
+                                <li><a href="#">Quản lý-Quy hoach</a></li>
+                                <li><a href="#">Không gian-Kiến trúc</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="search-box-mb">
+        <div class="container">
+            <form class="form">
+
+                <div class="search-group">
+                    <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                    <button class="btn-search"><i class='bx bx-search'></i></button>
+                </div>
+                <div id="search-keys">
+
+                    <h5>TÌM NHANH</h5>
+
+                    <a href="">SEA GAME</a>
+                    <a href="">vaccine phòng COVID-19</a>
+                    <a href="">liên minh châu âu</a>
+                    <a href="">nắng nóng</a>
+                    <a href="">SEA GAME</a>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div id="main-content">
+        <div class="container">
+            <div id="social">
+                <div class="twitter">
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                </div>
+                <div class="fb">
+                    <a href=""><i class='bx bxl-facebook'></i></a>
+                </div>
+                <div class=like>
+                    <a href=""><i class='bx bx-like'></i></a>
+                </div>
+                <div class="share">
+                    <a href=""><i class='bx bxs-share-alt'></i></a>
+                </div>
+                <div class="mess">
+                    <a href=""><i class='bx bx-message-rounded-error'></i></a>
+                </div>
+            </div>
+            <div id="left-content">
+                <div id="article-main">
+                    <div id="article-main-caretory">
+                        <a href=""><span>THẾ GIỚI</span></a>
+
+                    </div>
+                    <h1>Hình ảnh Tổng Bí thư Nguyễn Phú Trọng tiếp Phó Thủ tướng Campuchia Men Sam An</h1>
+                    <div class="more-info">
+                        <div class="origin">
+                            <a href="#">
+                                <img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="star">
+                            <a href="#"><i class='bx bx-star'></i></a>
+                        </div>
+                        <div class="time-update">
+                            <a href="#">09/06/22 09:52 GMT+7</a>
+                        </div>
+                        <div class="connected">
+                            <a href="#"> 3 liên quan</a>
+                        </div>
+                        <div class="parent">
+                            <a href="#"><i class='bx bx-file-blank'></i>Gốc </a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-image"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Chiều 24/6, tại Trụ sở Trung ương Đảng, Tổng Bí thư Nguyễn Phú Trọng tiếp Phó Chủ tịch Đảng Nhân
+                        dân Campuchia (CPP), Phó Thủ tướng Campuchia Men Sam An nhân dịp sang dự Lễ kỷ niệm 55 năm Ngày
+                        thiết lập quan hệ ngoại giao Việt Nam- Campuchia (24/6/1967-24/6/2022) và thăm chính thức Việt
+                        Nam.
+                    </p>
+                    <div class="photo">
+                        <div class="lightgallery">
+                            <a class="my-link" data-gall="myGallery">
+                                <img src="https://photo-baomoi.bmcdn.me/w700_r1/2022_06_24_14_42983974/f29539b0ddf234ac6de3.jpg"
+                                    alt="image alt" /></a>
+                        </div>
+                        <span><i class="title">Tổng Bí thư Nguyễn Phú Trọng tiếp Phó Chủ tịch Đảng Nhân dân Campuchia
+                                (CPP), Phó Thủ
+                                tướng Campuchia Men Sam An. (Ảnh: TTXVN)</i></span>
+                        <div class="zoom">
+                           <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="lightgallery">
+                            <a class="my-link" data-gall="myGallery">
+                                <img src="https://photo-baomoi.bmcdn.me/w700_r1/2022_06_24_14_42983974/566ea14b4509ac57f518.jpg"
+                                    alt="image alt" /></a>
+                        </div>
+                        <div class="zoom">
+<i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <span><i class="title">CLIP: Nghi vấn nhóm tín dụng đen xông vào nhà cụ bà 78 tuổi đập
+                                phá</i></span>
+                    </div>
+                    <div class="photo">
+                        <div class="lightgallery">
+                            <a class="my-link" data-gall="myGallery">
+                                <img src="https://photo-baomoi.bmcdn.me/w700_r1/2022_06_24_14_42983974/3aa5c58021c2c89c91d3.jpg"
+                                    alt="image alt" /></a>
+                        </div>
+                        <div class="zoom">
+                          <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <span><i class="title">Phê duyệt Khung chính sách bồi thường, tái định cư đường nối Ninh Thuận
+                                đến Lâm Đồng</i></span>
+                    </div>
+                    <div class="photo">
+                        <div class="lightgallery">
+                            <a class="my-link" data-gall="myGallery">
+                                <img src="https://photo-baomoi.bmcdn.me/w700_r1/2022_06_24_14_42983974/f29539b0ddf234ac6de3.jpg"
+                                    alt="image alt" /></a>
+                        </div>
+                        <span><i class="title">ĐT Việt Nam tiếp tục phải chờ để biết đối thủ ở VCK Asian Cup 2023
+                                ĐT Việt Nam tiếp tục phải chờ để biết đối thủ ở VCK Asian Cup 2023</i></span>
+                        <div class="zoom">
+                          <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div id="author">
+                        <p>Lê Trai</p>
+                    </div>
+
+
+                </div>
+
+                <div id="keys-connect">
+                    <h5><a href="">VŨ KHÍ QUÂN SỰ</a></h5>
+                    <nav>
+                        <a href="">Lê Tư</a>
+                        <a href="">vóc</a>
+                        <a href="">đôi mươi</a>
+                        <a href="">tập thể thao</a>
+                        <a href="">bóng đá</a>
+                        <a href="">quốc gia</a>
+                        <a href="">trò chuyện</a>
+                        <a href="">Lê Tư</a>
+                        <a href="">học tập</a>
+                        <a href="">xem phim</a>
+                        <a href="">Lê Tư</a>
+
+
+                    </nav>
+                </div>
+                <div id="category-link">
+                    <a href=""><span>Nguồn Zing:</span>
+                        https://zingnews.vn/chien-dau-co-trung-quoc-lao-xuong-nha-dan-post1324914.html</a>
+                </div>
+                <div class="right-ar-box" id="article-hot">
+                    <h3>
+                        <a href=""><span>NÓNG 24H</span></a>
+                    </h3>
+                    <div class="list-article right-ar-box-content">
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_14_42835611/91464e1ba05949071048.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Đến năm 2025, xử lý cơ bản các ngân hàng yếu kém</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-img">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_146_42835608/44b467e989ab60f539ba.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Thúc đẩy hợp tác quốc phòng Việt Nam-Ấn Độ</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_20_42836179/ac18dd433301da5f8310.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Vào tốp 8 đội mạnh nhất châu Á, U23 Việt Nam nhận thưởng 1,3 tỷ
+                                            đồng</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-vd">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_114_42833916/755b8f1d735f9a01c34e.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Kit test Việt Á được 'dọn đường' đến 62 tỉnh, thành như thế nào?</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_8_42835785/8451e60e084ce112b85d.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Fanpage tuyển Thái Lan chặn người dùng Việt Nam</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-ar-box">
+                    <h3>
+                        <a href=""><span>TIN KHÁC</span></a>
+                    </h3>
+                    <div class="list-article right-ar-box-content">
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-img">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_14_42835611/91464e1ba05949071048.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Đến năm 2025, xử lý cơ bản các ngân hàng yếu kém</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-vd">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_146_42835608/44b467e989ab60f539ba.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Thúc đẩy hợp tác quốc phòng Việt Nam-Ấn Độ</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_20_42836179/ac18dd433301da5f8310.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Vào tốp 8 đội mạnh nhất châu Á, U23 Việt Nam nhận thưởng 1,3 tỷ
+                                            đồng</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-img">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_114_42833916/755b8f1d735f9a01c34e.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Kit test Việt Á được 'dọn đường' đến 62 tỉnh, thành như thế nào?</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_8_42835785/8451e60e084ce112b85d.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Fanpage tuyển Thái Lan chặn người dùng Việt Nam</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="right-content">
+                <div class="list-article">
+                    <div class="article-item">
+                        <div class="article-thumbnail thumbnail-vd">
+                            <a href="#">
+                                <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_14_42835611/91464e1ba05949071048.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-title">
+                                <span>
+                                    <a href="#">Đến năm 2025, xử lý cơ bản các ngân hàng yếu kém</a>
+                                </span>
+                            </div>
+                            <div class="more-info">
+                                <div class="origin">
+                                    <a href="#">
+                                        <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="time-update">
+                                    <a href="#">10 giờ</a>
+                                </div>
+                                <div class="connected">
+                                    <a href="#"> 3 liên quan</a>
+                                </div>
+                                <div class="note">
+                                    <a href="#"><i class='bx bx-time-five'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class="article-thumbnail">
+                            <a href="#">
+                                <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_146_42835608/44b467e989ab60f539ba.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-title">
+                                <span>
+                                    <a href="#">Thúc đẩy hợp tác quốc phòng Việt Nam-Ấn Độ</a>
+                                </span>
+                            </div>
+                            <div class="more-info">
+                                <div class="origin">
+                                    <a href="#">
+                                        <img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="time-update">
+                                    <a href="#">10 giờ</a>
+                                </div>
+                                <div class="connected">
+                                    <a href="#"> 3 liên quan</a>
+                                </div>
+                                <div class="note">
+                                    <a href="#"><i class='bx bx-time-five'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class="article-thumbnail thumbnail-img">
+                            <a href="#">
+                                <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_20_42836179/ac18dd433301da5f8310.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-title">
+                                <span>
+                                    <a href="#">Vào tốp 8 đội mạnh nhất châu Á, U23 Việt Nam nhận thưởng 1,3 tỷ đồng</a>
+                                </span>
+                            </div>
+                            <div class="more-info">
+                                <div class="origin">
+                                    <a href="#">
+                                        <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="time-update">
+                                    <a href="#">10 giờ</a>
+                                </div>
+                                <div class="connected">
+                                    <a href="#"> 3 liên quan</a>
+                                </div>
+                                <div class="note">
+                                    <a href="#"><i class='bx bx-time-five'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class="article-thumbnail">
+                            <a href="#">
+                                <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_114_42833916/755b8f1d735f9a01c34e.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-title">
+                                <span>
+                                    <a href="#">Kit test Việt Á được 'dọn đường' đến 62 tỉnh, thành như thế nào?</a>
+                                </span>
+                            </div>
+                            <div class="more-info">
+                                <div class="origin">
+                                    <a href="#">
+                                        <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="time-update">
+                                    <a href="#">10 giờ</a>
+                                </div>
+                                <div class="connected">
+                                    <a href="#"> 3 liên quan</a>
+                                </div>
+                                <div class="note">
+                                    <a href="#"><i class='bx bx-time-five'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class="article-thumbnail thumbnail-img">
+                            <a href="#">
+                                <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_8_42835785/8451e60e084ce112b85d.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-title">
+                                <span>
+                                    <a href="#">Fanpage tuyển Thái Lan chặn người dùng Việt Nam</a>
+                                </span>
+                            </div>
+                            <div class="more-info">
+                                <div class="origin">
+                                    <a href="#">
+                                        <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="time-update">
+                                    <a href="#">10 giờ</a>
+                                </div>
+                                <div class="connected">
+                                    <a href="#"> 3 liên quan</a>
+                                </div>
+                                <div class="note">
+                                    <a href="#"><i class='bx bx-time-five'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div id="partner">
+                    <h6> ĐỐI TÁC CHÍNH THỨC</h6>
+                    <div id="partner-content">
+                        <div id="partner-animate">
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png"> </a>
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/8ac1a1ae7ced95b3ccfc.png"> </a>
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png"> </a>
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/8ac1a1ae7ced95b3ccfc.png"> </a>
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png"> </a>
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/8ac1a1ae7ced95b3ccfc.png"> </a>
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png"> </a>
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png"> </a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div id="government">
+                    <div id="government-title">
+                        <div id="government-logo">
+                            <a href="#"><img src="assets/images/logo_bcp.png" alt=""></a>
+                        </div>
+                        <h5><a href="">THÔNG TIN CHÍNH PHỦ</a></h5>
+                    </div>
+                    <div id="government-content">
+                        <div id="government-article">
+                            <div id="government-article-thumb">
+                                <a href="#">
+                                    <img src="assets/images/government.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <p class="strong-font">
+
+                                        TỔNG THUẬT: Quốc hội chất vấn Bộ trưởng Lê Minh Hoan
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Phê chuẩn cách chức Bộ trưởng Y tế và bãi nhiệm đại biểu Quốc hội với ông Nguyễn
+                                        Thanh Long
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Phê chuẩn cách chức Bộ trưởng Y tế và bãi nhiệm đại biểu Quốc hội với ông Nguyễn
+                                        Thanh Long
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="local">
+                    <h5> <a href="#">
+                            <i class='bx bx-map'></i>
+                            <span>ĐỊA PHƯƠNG </span>
+                        </a></h5>
+                    <select>
+                        <option value="AN_GIANG">An Giang</option>
+                        <option value="BA_RIA_VUNG_TAU">BR-VT</option>
+                        <option value="BAC_GIANG">Bắc Giang</option>
+                        <option value="BAC_KAN">Bắc Kạn</option>
+                        <option value="BAC_LIEU">Bạc Liêu</option>
+                        <option value="BAC_NINH">Bắc Ninh</option>
+                        <option value="BEN_TRE">Bến Tre</option>
+                        <option value="BINH_DUONG">Bình Dương</option>
+                        <option value="BINH_DINH">Bình Định</option>
+                        <option value="BINH_PHUOC">Bình Phước</option>
+                        <option value="BINH_THUAN">Bình Thuận</option>
+                        <option value="CA_MAU">Cà Mau</option>
+                        <option value="CAN_THO">Cần Thơ</option>
+                        <option value="CAO_BANG">Cao Bằng</option>
+                        <option value="DA_NANG">Đà Nẵng</option>
+                        <option value="DAK_LAK">Đăk Lăk</option>
+                        <option value="DONG_NAI">Đồng Nai</option>
+                        <option value="DONG_THAP">Đồng Tháp</option>
+                        <option value="GIA_LAI">Gia Lai</option>
+                        <option value="HA_GIANG">Hà Giang</option>
+                        <option value="HA_NAM">Hà Nam</option>
+                        <option value="HA_NOI">Hà Nội</option>
+                        <option value="HA_TINH">Hà Tĩnh</option>
+                        <option value="HAI_DUONG">Hải Dương</option>
+                        <option value="HAI_PHONG">Hải Phòng</option>
+                        <option value="HOA_BINH">Hòa Bình</option>
+                        <option value="HUNG_YEN">Hưng Yên</option>
+                        <option value="KIEN_GIANG">Kiên Giang</option>
+                        <option value="KON_TUM">Kon Tum</option>
+                        <option value="KHANH_HOA">Khánh Hòa</option>
+                        <option value="LAI_CHAU">Lai Châu</option>
+                        <option value="LANG_SON">Lạng Sơn</option>
+                        <option value="LAO_CAI">Lào Cai</option>
+                        <option value="LAM_DONG">Lâm Đồng</option>
+                        <option value="LONG_AN">Long An</option>
+                        <option value="NAM_DINH">Nam Định</option>
+                        <option value="NINH_BINH">Ninh Bình</option>
+                        <option value="NINH_THUAN">Ninh Thuận</option>
+                        <option value="NGHE_AN">Nghệ An</option>
+                        <option value="PHU_THO">Phú Thọ</option>
+                        <option value="PHU_YEN">Phú Yên</option>
+                        <option value="QUANG_BINH">Quảng Bình</option>
+                        <option value="QUANG_NAM" selected="">Quảng Nam</option>
+                        <option value="QUANG_NINH">Quảng Ninh</option>
+                        <option value="QUANG_NGAI">Quảng Ngãi</option>
+                        <option value="QUANG_TRI">Quảng Trị</option>
+                        <option value="SOC_TRANG">Sóc Trăng</option>
+                        <option value="SON_LA">Sơn La</option>
+                        <option value="TAY_NINH">Tây Ninh</option>
+                        <option value="TIEN_GIANG">Tiền Giang</option>
+                        <option value="HO_CHI_MINH">TP. HCM</option>
+                        <option value="THUA_THIEN_HUE">TT Huế</option>
+                        <option value="TUYEN_QUANG">Tuyên Quang</option>
+                        <option value="THAI_BINH">Thái Bình</option>
+                        <option value="THAI_NGUYEN">Thái Nguyên</option>
+                        <option value="THANH_HOA">Thanh Hóa</option>
+                        <option value="TRA_VINH">Trà Vinh</option>
+                        <option value="VINH_LONG">Vĩnh Long</option>
+                        <option value="VINH_PHUC">Vĩnh Phúc</option>
+                        <option value="YEN_BAI">Yên Bái</option>
+                        <option value="DAK_NONG">Đăk Nông</option>
+                        <option value="HAU_GIANG">Hậu Giang</option>
+                        <option value="DIEN_BIEN">Điện Biên</option>
+                        <option value="BAC_BO">Bắc Bộ</option>
+                        <option value="TAY_BAC_BO">Tây Bắc Bộ</option>
+                        <option value="DONG_BAC_BO">Đông Bắc Bộ</option>
+                        <option value="DONG_BANG_SONG_HONG">Đồng bằng sông Hồng</option>
+                        <option value="TRUNG_BO">Trung Bộ</option>
+                        <option value="BAC_TRUNG_BO">Bắc Trung Bộ</option>
+                        <option value="NAM_TRUNG_BO">Nam Trung Bộ</option>
+                        <option value="TAY_NGUYEN">Tây Nguyên</option>
+                        <option value="NAM_BO">Nam Bộ</option>
+                        <option value="DONG_NAM_BO">Đông Nam Bộ</option>
+                        <option value="TAY_NAM_BO">Tây Nam Bộ</option>
+                    </select>
+                    <div class="list-article">
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_14_42835611/91464e1ba05949071048.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Đến năm 2025, xử lý cơ bản các ngân hàng yếu kém</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-img">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_146_42835608/44b467e989ab60f539ba.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Thúc đẩy hợp tác quốc phòng Việt Nam-Ấn Độ</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_20_42836179/ac18dd433301da5f8310.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Vào tốp 8 đội mạnh nhất châu Á, U23 Việt Nam nhận thưởng 1,3 tỷ
+                                            đồng</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-vd">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_114_42833916/755b8f1d735f9a01c34e.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Kit test Việt Á được 'dọn đường' đến 62 tỉnh, thành như thế nào?</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_8_42835785/8451e60e084ce112b85d.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Fanpage tuyển Thái Lan chặn người dùng Việt Nam</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="see-all">
+                        <h5> <a href="#">Xem thêm</a></h5>
+                    </div>
+
+                </div>
+                <div class="right-ar-box" id="article-vd">
+                    <h3>
+                        <a href=""><span>VIDEO</span></a>
+                    </h3>
+                    <div class="right-ar-box-content">
+
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-vd">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_09_17_42840000/6e17af214163a83df172.jpg"
+                                        alt="">
+
+                                </a>
+                            </div>
+                            <div>
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Cảnh báo nguy cơ nhiều nước có thể rơi vào suy thoái nghiêm
+                                            trọng</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/a60983665e25b77bee34.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-vd">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_09_458_42839898/73c4baf354b1bdefe4a0.jpg"
+                                        alt="">
+
+                                </a>
+                            </div>
+                            <div>
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Đột phá các dự án trọng điểm đầu nhiệm kỳ (bài 1): 'Thần tốc' giải
+                                            phóng mặt bằng</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/cc349c32bc70552e0c61.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_09_114_42839530/a3350263c5232c7d7532.jpg"
+                                        alt="">
+
+                                </a>
+                            </div>
+                            <div>
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Cuba cáo buộc Mỹ tiếp tục hạn chế nới lỏng lệnh cấm vận</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-ar-box" id="article-hot">
+                    <h3>
+                        <a href=""><span>NÓNG 24H</span></a>
+                    </h3>
+                    <div class="list-article right-ar-box-content">
+                        <div class="article-item">
+                            <div class="article-thumbnail thumbnail-vd">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_14_42835611/91464e1ba05949071048.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Đến năm 2025, xử lý cơ bản các ngân hàng yếu kém</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_146_42835608/44b467e989ab60f539ba.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Thúc đẩy hợp tác quốc phòng Việt Nam-Ấn Độ</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/3a2a57458a0663583a17.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2022_06_08_20_42836179/ac18dd433301da5f8310.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Vào tốp 8 đội mạnh nhất châu Á, U23 Việt Nam nhận thưởng 1,3 tỷ
+                                            đồng</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_114_42833916/755b8f1d735f9a01c34e.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Kit test Việt Á được 'dọn đường' đến 62 tỉnh, thành như thế nào?</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/d59db7f26ab183efdaa0.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-thumbnail">
+                                <a href="#">
+                                    <img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_06_08_8_42835785/8451e60e084ce112b85d.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-title">
+                                    <span>
+                                        <a href="#">Fanpage tuyển Thái Lan chặn người dùng Việt Nam</a>
+                                    </span>
+                                </div>
+                                <div class="more-info">
+                                    <div class="origin">
+                                        <a href="#">
+                                            <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="time-update">
+                                        <a href="#">10 giờ</a>
+                                    </div>
+                                    <div class="connected">
+                                        <a href="#"> 3 liên quan</a>
+                                    </div>
+                                    <div class="note">
+                                        <a href="#"><i class='bx bx-time-five'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="footer">
+        <div id="footer-web">
+            <div id="footer-top">
+                <div class="container">
+                    <div id="footer-img">
+                        <a href="#"></a>
+
+                    </div>
+                    <form class="from">
+                        <div class="search-group">
+                            <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                            <button class="search"><i class="bx bx-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="container" id="footer-content">
+                <div>
+                    <span><a href="">Nhật Bản </a></span>
+                    <span><a href="">Nguyễn Thanh Long </a></span>
+                    <span><a href="">Việt Á </a></span>
+                    <span><a href="">SEA Games 31 </a></span>
+                    <span><a href="">Gong Oh Kyun</a></span>
+                    <span><a href="">bộ nông nghiệp và phát triển nông thôn </a></span>
+                    <span><a href="">liên hợp quốc</a></span>
+                    <span><a href="">Việt Á </a></span>
+                    <span><a href="">SEA Games 31 </a></span>
+                    <span><a href="">Gong Oh Kyun</a></span>
+                    <span><a href="">bộ nông nghiệp và phát triển nông thôn </a></span>
+                    <span><a href="">liên hợp quốc</a></span>
+                    <span><a href="">bất động sản</a></span>
+                    <span><a href="">hàn quốc </a></span><span><a href="">việt nam </a></span>
+                    <span><a href="">trái phiếu doanh nghiệp </a></span>
+                    <span><a href="">bộ giáo dục và đào tạo</a></span>
+                    <span><a href="">Nguyễn Thanh Long </a></span>
+                    <span><a href="">Việt Á </a></span>
+                    <span><a href="">SEA Games 31 </a></span>
+                    <span><a href="">Gong Oh Kyun</a></span>
+                    <span><a href="">bộ nông nghiệp và phát triển nông thôn </a></span>
+                    <span><a href="">liên hợp quốc</a></span>
+                    <span><a href="">bất động sản</a></span>
+                    <span><a href="">hàn quốc </a></span><span><a href="">việt nam </a></span>
+                    <span><a href="">trái phiếu doanh nghiệp </a></span>
+                    <span><a href="">bộ giáo dục và đào tạo</a></span>
+                </div>
+            </div>
+            <div class="container" id="contact">
+                <div id="left-footer">
+                    <ul>
+                        <h5>LIÊN HỆ</h5>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Điều khoản sử dụng</a></li>
+                        <li><a href="">Quảng cáo</a></li>
+                    </ul>
+                    <ul>
+                        <h5>KHÁC</h5>
+                        <li><a href="">Tổng hợp</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Giấy phép số 1818/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 05/05/2017<br>Đơn vị
+                        chủ
+                        quản: Công ty Cổ phần Công nghệ EPI * Chịu trách nhiệm: Võ Quang<br>Địa chỉ: Tầng 5, Tòa nhà Báo
+                        Sinh Viên VN, D29 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội<br>Tel: (024) 3-212-3232, số máy lẻ
+                        6666.
+                        contact.baomoi@epi.com.vn</p>
+                    <p>BÁO MỚI tổng hợp và sắp xếp các thông tin tự động<br>bởi chương trình máy tính</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer-mb">
+            <div id="footer-mb-top">
+                <div class="container">
+                    <div>
+                        <a href="">
+                            <img src="assets/images/logo-mobi-ft.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <h5>TẢI ỨNG DỤNG BÁO MỚI</h5>
+                        <H6>ĐỂ KHÔNG BỎ SÓT THÔNG TIN</H6>
+                    </div>
+                    <div>
+                        <a href="">
+                            <button>
+                                <i class='bx bxs-cloud-download'></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-mb-bottom">
+                Địa chỉ: Tầng 5, Tòa nhà Báo Sinh Viên VN,<br>
+                D29 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội<br>
+                Tel: (024) 3-212-3232, số máy lẻ 6666.<br>
+                Email: contact.baomoi@epi.com.vn<br>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.3/venobox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

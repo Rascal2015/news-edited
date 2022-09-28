@@ -1,0 +1,89 @@
+
+ #header {
+        .container {
+            padding: 0.2rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            #header-left {
+                display: flex;
+                align-items: center;
+    
+                #logo {
+                    img {
+                        max-width: 12.5rem;
+                        object-fit: contain !important;
+                    }
+                }
+                // .form{
+                //     #search-keys{
+                //         display: none;
+                //     }
+                // }
+            }
+    
+            #header-right {
+                #btn-search-mb {
+                    display: none;
+                }
+    
+                display: flex;
+                margin-right:1rem;
+            }
+        }
+    }
+
+
+        #search-box-mb {
+            display: none;
+            overflow: hidden;
+            &.active{
+                display: block !important;
+            }
+            form {
+                width: 100% !important;
+                margin-left: 0 !important;
+                    
+                        .search-group{
+                            border: solid  #ddd 1px !important;
+                            margin: 2rem 0 !important ;
+                            padding: 0 0 0  1rem !important;
+                            button{
+                                background-color:#2fa1b3 ;
+                                i{
+                                    color: #fff !important;
+                                }
+                            }
+                        }
+                        
+                        #search-keys{
+                            padding: 1rem 0 ;
+                            position: relative;
+                            &::before{
+                                position:absolute;
+                                content:'';
+                                width: 10000px;
+                                left: 50%;
+                                top: 0;
+                                height: 1px;
+                                background-color: #ddd;
+                                transform: translateX(-50%);
+
+                            }
+                            // border-top: solid #ddd 1px;
+                            a{
+                                display:inline-block;
+                                padding: 0.5rem;
+                                margin:0.5rem;
+                                border:solid #ddd 1px;
+                                color: #6c757d;
+                            }
+                        }
+                    
+    
+                
+
+            }
+
+        }
